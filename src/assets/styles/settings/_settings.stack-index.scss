@@ -1,0 +1,13 @@
+
+/*
+STACK INDEX
+-----------
+A config to keep track of the z-index stack for main components.
+ */
+
+$stack-index: (
+  popup: 3,
+  navigation: 2,
+  page-overlay: 1,
+  page-container: 0
+);

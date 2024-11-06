@@ -1,0 +1,15 @@
+
+/*
+RESET
+-----
+Reset all the things that make no sense as defaults.
+ */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  // http://stackoverflow.com/questions/5210481/disable-orange-outline-highlight-on-focus
+  -webkit-tap-highlight-color: transparent;
+}

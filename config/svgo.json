@@ -1,0 +1,48 @@
+{
+  "plugins": [
+    {
+      "cleanupAttrs": true,
+      "cleanupEnableBackground": true,
+      "cleanupIDs": true,
+      "cleanupListOfValues": false,
+      "cleanupNumericValues": true,
+      "collapseGroups": true,
+      "convertColors": true,
+      "convertPathData": true,
+      "convertShapeToPath": true,
+      "convertStyleToAttrs": true,
+      "convertTransform": true,
+      "inlineStyles": {
+        "onlyMatchedOnce": false
+      },
+      "mergePaths": true,
+      "minifyStyles": true,
+      "moveElemsAttrsToGroup": true,
+      "moveGroupAttrsToElems": true,
+      "removeComments": true,
+      "removeDesc": true,
+      "removeDimensions": false,
+      "removeDoctype": true,
+      "removeEditorsNSData": true,
+      "removeEmptyAttrs": true,
+      "removeEmptyContainers": true,
+      "removeEmptyText": true,
+      "removeHiddenElems": true,
+      "removeMetadata": true,
+      "removeNonInheritableGroupAttrs": true,
+      "removeRasterImages": true,
+      "removeScriptElement": false,
+      "removeStyleElement": false,
+      "removeTitle": true,
+      "removeUnknownsAndDefaults": true,
+      "removeUnusedNS": true,
+      "removeUselessDefs": true,
+      "removeUselessStrokeAndFill": true,
+      "removeViewBox": false,
+      "removeXMLNS": false,
+      "removeXMLProcInst": true,
+      "sortAttrs": false
+    }
+  ]
+}
+

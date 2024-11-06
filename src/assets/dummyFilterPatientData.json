@@ -1,0 +1,34 @@
+{
+    "GSI-RADS Report Data": {
+            "Tumor found":"True",
+            "Tumor multifocality" :"ture",
+            "Number tumor Parts":"2",
+            "Largest distance between components":"73.36(mm)"
+        },
+    "Volumes":{},
+    "Laterality":{
+            "Left hemishere":"90.18%",
+            "Right hemishere":"9.82%",
+            "Midline crossing":"True"
+        },
+    "Resectability":{
+            "Expected resectable volume":"11.49",
+            "Expected Resudual volume":"2.22(ml)",
+            "Resection":"0.838",
+            "Complexity index":"0.613"
+        },
+    "Subcortical structures overlap":{
+            "Mini Atlas": { 
+                "Daily morning Coffee" : "Ja",
+                "Saturday Netflix" : "Ja",
+                "Everyday cleaning" : "Nee",
+                "Cinema" : "Ofcourse"
+            },
+            "Harvard-Oxford Atals": { 
+                "Frontal Operculul cortex" : "21.51%",
+                "Insular Cortex" : "18.84",
+                "Central Opercular cortex " : "14.67",
+                "Forget" : "All the above"
+            }
+    }
+}

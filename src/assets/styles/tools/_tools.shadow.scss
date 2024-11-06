@@ -1,0 +1,9 @@
+
+/*
+SHADOW
+------
+ */
+
+@mixin shadow-box() {
+  box-shadow: 0 0 10px 0 rgba($color-black, 0.1);
+}

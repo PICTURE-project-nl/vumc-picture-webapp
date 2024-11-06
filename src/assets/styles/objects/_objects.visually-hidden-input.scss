@@ -1,0 +1,24 @@
+
+/*
+VISUALLY HIDDEN INPUT
+---------------------
+Make input visually hidden so we can use other elements to enable it's functionality.
+ */
+
+.o-visually-hidden-input {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+}
+
+.o-visually-hidden-input__input {
+  cursor: pointer!important; /*RMM*/
+  height: 100%!important; /*RMM*/
+  width: 100%!important; /*RMM*/
+  left: 0!important; /*RMM*/
+  top: 0!important; /*RMM*/
+  opacity: 0!important; /*RMM*/
+  position: absolute!important; /*RMM*/
+  z-index: 2!important; /*RMM*/
+  padding-left:0!important; /*RMM*/
+}

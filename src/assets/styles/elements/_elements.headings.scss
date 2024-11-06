@@ -1,0 +1,20 @@
+
+/*
+HEADINGS
+--------
+Sensible defaults.
+ */
+
+// Fixes a reset override coming from normalize.css
+h1 {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-headings;
+}

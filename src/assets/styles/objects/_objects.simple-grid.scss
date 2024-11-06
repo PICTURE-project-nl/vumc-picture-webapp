@@ -1,0 +1,64 @@
+
+/*
+SIMPLE GRID
+-----------
+Simple grid for templates.
+ */
+
+
+@use "sass:math";
+
+$simple-grid-column-split-width: 466px;
+
+$simple-grid-column-explorer-sidebar-width: 400px;//350px;
+$simple-grid-column-explorer-main-width: 788px;
+
+$simple-grid-column-editor-sidebar-width: 200px;
+$simple-grid-column-editor-main-width: 480px;
+
+.o-simple-grid {
+  @include mq($from: tablet) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.o-simple-grid__divider {
+  @include mq($until: tablet) {
+    display: none;
+  }
+}
+
+.o-simple-grid__column--split {
+  @include mq($from: tablet) {
+    width: percentage(math.div($simple-grid-column-split-width, $inuit-wrapper-width));
+  }
+}
+
+.o-simple-grid__column--explorer-sidebar {
+  @include mq($from: tablet) {
+    width: percentage(math.div($simple-grid-column-explorer-sidebar-width, $inuit-wrapper-width));
+  }
+}
+
+.o-simple-grid__column--explorer-main {
+  @include mq($from: tablet) {
+    width: percentage(math.div($simple-grid-column-explorer-main-width, $inuit-wrapper-width));
+  }
+}
+
+.o-simple-grid__column--editor-sidebar {
+  @include mq($from: tablet) {
+    width: $simple-grid-column-explorer-sidebar-width;
+  }
+}
+
+.o-simple-grid__column--editor-main {
+  @include mq($from: tablet) {
+    width: percentage(math.div($simple-grid-column-editor-main-width, $inuit-wrapper-width));
+  }
+}
+
+.o-simple-grid__column--editor-mobile {
+  margin-top: 0;
+}

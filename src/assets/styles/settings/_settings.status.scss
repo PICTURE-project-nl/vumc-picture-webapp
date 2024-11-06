@@ -1,0 +1,12 @@
+
+/*
+STATUS
+------
+A config to map the status of an object to a color.
+ */
+
+$status: (
+  'success': $color-lima,
+  'error': $color-red-alert,
+  'loading': $color-dodger-blue
+);

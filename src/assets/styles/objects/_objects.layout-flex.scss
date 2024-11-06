@@ -1,0 +1,92 @@
+
+/*
+LAYOUT
+------
+Simple flexbox layout.
+ */
+
+.o-layout-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@each $breakpoint-name, $breakpoint-width in $mq-breakpoints {
+  .o-layout-flex\@#{$breakpoint-name} {
+    @include mq($from: $breakpoint-name) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+/*
+CENTERING
+------
+Centering of Rows
+ */
+
+.o-layout-flex--vertical-center-row {
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.o-layout-flex--vertical-end-row {
+  align-items: flex-end;
+  flex-direction: row;
+}
+
+.o-layout-flex--horizontal-center-row {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+/*
+CENTERING
+------
+Centering of Columns
+ */
+
+.o-layout-flex--vertical-center-column {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.o-layout-flex--horizontal-center-column {
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+/*
+POSITIONING
+------
+Positioning of Rows
+ */
+
+.o-layout-flex--horizontal-bottom-row {
+  align-items: flex-end;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.o-layout-flex--horizontal-end-row {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+.o-layout-flex--between-row {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.o-layout-flex--center {
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}

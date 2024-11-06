@@ -1,0 +1,17 @@
+#ie-message {
+  display: none;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #ie-message {
+    display: block;
+
+    h1 {
+      color: white;
+    }
+  }
+
+  #__nuxt {
+    display: none;
+  }
+}

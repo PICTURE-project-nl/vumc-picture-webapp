@@ -1,0 +1,26 @@
+
+/*
+RESETS
+------
+Reset specific element types.
+ */
+
+@mixin reset-button() {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  padding: 0;
+  text-decoration: none;
+}
+
+@mixin reset-form-element() {
+  appearance: none;
+  outline: 0;
+}
+
+@mixin reset-list() {
+  list-style: none;
+  padding: 0;
+}

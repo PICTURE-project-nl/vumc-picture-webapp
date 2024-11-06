@@ -1,0 +1,31 @@
+
+/*
+WRAPPER
+-------
+Page-level constraining and wrapping elements.
+ */
+
+// Import default code.
+@import '~inuitcss/objects/objects.wrapper';
+
+.o-wrapper--flush {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.o-wrapper--small {
+  max-width: $inuit-wrapper-width - (4 * $global-spacing-unit-huge);
+}
+ 
+// Creates consistent spacing and width based on the design grid
+.o-wrapper--extended {
+  max-width: $inuit-wrapper-width + (2 * $global-spacing-unit);
+  padding-left: $global-spacing-unit;
+  padding-right: $global-spacing-unit;
+
+  @include mq($from: tablet) {
+    max-width: $inuit-wrapper-width + (6 * $global-spacing-unit-large);
+    padding-left: $global-spacing-unit-large;
+    padding-right: $global-spacing-unit-large;
+  }
+}

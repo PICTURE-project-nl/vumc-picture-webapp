@@ -1,0 +1,28 @@
+
+/*
+FONT STACKS
+-----------
+Find safe font stacks here: https://www.cssfontstack.com/
+ */
+
+$font-stack-source-sans-pro: 'Poppins';//'Source Sans Pro', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+
+
+/*
+FONT WEIGHTS
+------------
+ */
+$font-weight-normal: 400;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+
+
+/*
+FONT CONFIG
+-----------
+Set fonts based on their usage.
+ */
+
+$font-headings: $font-stack-source-sans-pro;
+$font-copy: $font-stack-source-sans-pro;
+

@@ -1,0 +1,21 @@
+
+/*
+FORMS
+-----
+Form related tools.
+ */
+
+// See: https://caniuse.com/#feat=css-placeholder
+@mixin form-placeholder() {
+  &::-webkit-input-placeholder {
+    @content;
+  }
+
+  &::-ms-input-placeholder {
+    @content;
+  }
+
+  &:-ms-input-placeholder {
+    @content;
+  }
+}

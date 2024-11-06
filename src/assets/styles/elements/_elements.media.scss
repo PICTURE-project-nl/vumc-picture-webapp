@@ -1,0 +1,22 @@
+
+/*
+IMAGES
+------
+Sensible defaults.
+ */
+
+iframe {
+  border: 0;
+  display: block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  vertical-align: middle;
+  transform: scaleX(-1);
+}
+
+svg {
+  display: block;
+}

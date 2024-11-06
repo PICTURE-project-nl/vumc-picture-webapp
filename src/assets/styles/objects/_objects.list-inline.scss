@@ -1,0 +1,13 @@
+
+/*
+LIST INLINE
+-----------
+The list-inline object simply displays a list of items in one line.
+ */
+
+// Import default code.
+@import '~inuitcss/objects/objects.list-inline';
+
+.o-list-inline {
+  padding-left: 0;
+}

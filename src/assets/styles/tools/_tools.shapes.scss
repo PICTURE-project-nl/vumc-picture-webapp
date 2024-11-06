@@ -1,0 +1,10 @@
+
+/*
+SHAPES
+------
+ */
+
+@mixin shape-pill() {
+  border-radius: 9999px;
+  overflow: hidden;
+}

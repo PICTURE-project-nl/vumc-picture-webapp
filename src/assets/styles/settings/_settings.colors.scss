@@ -1,0 +1,83 @@
+
+/*
+COLOR PALETTE
+-------------
+Define all colors by their actual color name.
+
+Color names: http://chir.ag/projects/name-that-color/#FFFFFF
+ */
+
+$color-white: #fff;
+
+$color-white-transparent: rgba($color-white, 0.2);
+$color-black: #000;
+$color-black-transparent: rgba(10, 12, 17, 0.9);
+
+$color-input:#1C1B21;
+$color-input-transparent: rgba($color-input, 0.2);
+$color-jaguar:#292930;
+$color-ghost: #bdc2cd;
+$color-ghost-transparent: rgba($color-ghost, 0.2);
+$color-shark: #25272e;
+$color-mirage: #1b202b;
+$color-ebony-clay: #272d3d;
+
+$color-dodger-blue: #0da1fb;
+$color-red-alert: #fc2629;
+$color-red-alert-transparent: rgba($color-red-alert, 0.2);
+$color-buttercup: #fb970d;
+$color-lima: #22e557;
+$color-lima-transparent: rgba($color-lima, 0.2);
+
+$color-very-dark-blue-black: #1C1B21;
+
+$color-border-Abbey : #51525C;
+
+$scrollbar-color:rgb(41, 41, 48);
+$scrollbar-shadow-color :0 0 6px rgba(0,0,0,.3);
+$scrollbar-track-shadow-color :rgba(18, 17, 17, 0.3);
+/*
+COLOR GRADIENTS
+---------------
+Define color gradients
+
+$color-gradient-red-yellow-green: linear-gradient(to right, rgba(224, 0, 0, 1) 0%, rgba(247, 255, 0, 1) 50%, rgba(59, 207, 0, 1) 100%);
+
+/*
+COLOR CONFIG
+------------
+Set colors based on their usage.
+ */
+
+$color-background: $color-mirage;
+$color-text: $color-white;
+
+
+/*
+UI COLORS
+---------
+Colors that can be used throughout the UI, such as background colors or text
+colors. The key will map to the class name.
+
+Example: 'white' => .ca-icon--white
+ */
+
+$color-ui: (
+  'white': $color-white,
+  'white-transparent': $color-white-transparent,
+  'black': $color-black,
+  'ghost': $color-ghost,
+  'ghost-transparent': $color-ghost-transparent,
+  'shark': $color-shark,
+  'mirage': $color-mirage,
+  'ebony-clay': $color-ebony-clay,
+  'dodger-blue': $color-dodger-blue,
+  'red-alert': $color-red-alert,
+  'red-alert-transparent': $color-red-alert-transparent,
+  'buttercup': $color-buttercup,
+  'lima': $color-lima,
+  'lima-transparent': $color-lima-transparent,
+  'very-dark-blue':$color-very-dark-blue-black,
+  'border-abbey' :$color-border-Abbey,
+  'color-jaguar':$color-jaguar
+);

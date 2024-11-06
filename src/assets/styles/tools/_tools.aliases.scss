@@ -1,0 +1,21 @@
+
+/*
+ALIASES
+-------
+Shortcuts to inuit variables.
+
+See: https://github.com/inuitcss/inuitcss#aliases
+ */
+
+$global-spacing-unit: $inuit-global-spacing-unit; // 24px
+$global-spacing-unit-tiny: $inuit-global-spacing-unit-tiny; // 6px
+$global-spacing-unit-small: $inuit-global-spacing-unit-small; // 12px
+$global-spacing-unit-medium: $inuit-global-spacing-unit; // 24px
+$global-spacing-unit-large: $inuit-global-spacing-unit-large; // 48px
+$global-spacing-unit-huge: $inuit-global-spacing-unit-huge; // 96px
+
+$global-line-height: $inuit-global-line-height;
+
+@mixin font-size($args...) {
+  @include inuit-font-size($args...);
+}

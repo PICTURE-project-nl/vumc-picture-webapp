@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  frontend:
+    build: .
+    env_file:
+      - .env
+    networks:
+      - proxy
+    restart: always
+    ports:
+      - 8000:8000
+networks:
+  proxy:
+    external: true
+    name: "${NETWORK_PREFIX}_proxy"

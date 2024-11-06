@@ -1,0 +1,5 @@
+name:  pictureproject.nl
+domain-root: pictureproject.nl
+mappings:
+    - port: 3000
+    - prefix: test

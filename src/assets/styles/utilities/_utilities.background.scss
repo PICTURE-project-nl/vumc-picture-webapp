@@ -1,0 +1,11 @@
+
+/*
+BACKGROUND
+----------
+ */
+
+@each $name, $color in $color-ui {
+  .u-background-color-#{$name} {
+    background-color: $color !important;
+  }
+}

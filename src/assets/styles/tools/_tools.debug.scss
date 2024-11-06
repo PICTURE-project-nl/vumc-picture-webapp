@@ -1,0 +1,14 @@
+
+/*
+DEBUG
+-----
+Tools for easy debugging.
+ */
+
+@mixin debug-dotted-outline() {
+  .debug & {
+    outline: 1px dotted rgba($color-white, 0.5);
+  }
+}
+
+

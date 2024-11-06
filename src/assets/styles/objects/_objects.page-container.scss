@@ -1,0 +1,29 @@
+
+/*
+PAGE CONTAINER
+--------------
+Vertical page container.
+ */
+
+.o-page-container {
+  min-height: 100vh;
+  min-width: 100vw;
+  padding-top: $global-spacing-unit-huge;
+  z-index: map-get($stack-index, page-container);
+
+  @include mq($from: tablet) {
+    padding-top: 7 * $global-spacing-unit;
+  }
+}
+
+.o-page-container--small-top {
+  position:fixed;
+  padding-top: 4 * $global-spacing-unit;
+}
+
+.o-page-container--no-top {
+  // position:fixed;
+  padding-top:1px;
+ 
+
+}

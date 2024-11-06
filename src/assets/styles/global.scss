@@ -1,0 +1,111 @@
+
+/*
+GLOBAL
+------
+The SCSS in this project is based on the inuitcss framework.
+Please read the documentation carefully before making any changes or diverging
+from the concepts used below!
+
+Documentation: https://github.com/inuitcss/inuitcss
+ */
+
+
+/*
+GENERIC
+-------
+Low-specificity, far-reaching rulesets (e.g. resets).
+ */
+
+@import '~inuitcss/generic/generic.box-sizing';
+@import '~inuitcss/generic/generic.normalize';
+@import '~sanitize.css/sanitize';
+@import 'generic/generic.animation';
+//@import 'assets/styles/generic/generic.fonts';
+@import 'generic/generic.reset';
+
+
+/*
+ELEMENTS
+--------
+Unclassed HTML elements (e.g. a {}, blockquote {}, address {}).
+ */
+
+@import '~inuitcss/elements/elements.page';
+@import 'elements/elements.forms';
+@import 'elements/elements.headings';
+@import 'elements/elements.hr';
+@import 'elements/elements.links';
+@import 'elements/elements.lists';
+@import 'elements/elements.media';
+@import 'elements/elements.page';
+@import 'elements/elements.tables';
+
+
+/*
+OBJECTS
+-------
+Objects, abstractions, and design patterns (e.g. .o-layout {}).
+ */
+
+@import '~inuitcss/objects/objects.block';
+@import '~inuitcss/objects/objects.box';
+@import '~inuitcss/objects/objects.crop';
+@import '~inuitcss/objects/objects.flag';
+@import '~inuitcss/objects/objects.media';
+@import '~inuitcss/objects/objects.pack';
+@import '~inuitcss/objects/objects.ratio';
+@import '~inuitcss/objects/objects.table';
+@import '~inuit-flexgrid/objects/objects.grid';
+@import 'objects/objects.visually-hidden-input';
+@import 'objects/objects.layout-flex';
+@import 'objects/objects.list-bare';
+@import 'objects/objects.list-inline';
+@import 'objects/objects.page-container';
+@import 'objects/objects.simple-grid';
+@import 'objects/objects.wrapper';
+
+
+/*
+COMPONENTS
+----------
+Discrete, complete chunks of UI (e.g. .c-carousel {}). This is the one layer
+that inuitcss doesn’t provide code for, as this is completely your terrain.
+
+Note: these pieces of code can be found in the src/components/ folder, inside the Vue components themselves.
+ */
+
+
+/*
+UTILITIES
+---------
+High-specificity, very explicit selectors. Overrides and helper classes (e.g. .u-hidden {}).
+ */
+
+// Order matters here.
+@import '~inuitcss/utilities/utilities.spacings';
+
+// Order doesn't matter from here.
+@import '~inuitcss/utilities/utilities.responsive-spacings';
+@import '~inuitcss/utilities/utilities.widths';
+@import '~inuitcss/utilities/utilities.hide';
+@import 'utilities/utilities.background';
+@import 'utilities/utilities.image';
+@import 'utilities/utilities.text';
+
+
+/*
+VENDOR
+------
+Any external dependencies, preferrably installed via yarn.
+ */
+
+@import 'vendor/vendor.vue-slider-component';
+
+
+/*
+SHAME
+-----
+Sometimes you can't avoid writing ugly code. :'(
+ */
+
+@import 'shame/shame.ie-detection';
