@@ -9,7 +9,8 @@ const scssConfig = require('./src/config/scss-config')
 
 module.exports = {
   env: {
-    baseUrl: process.env.BASE_URL || 'http://localhost:8000'
+    baseUrl: process.env.BASE_URL || 'http://localhost:8000',
+    BASE_API_URL: process.env.API_URL || 'http://localhost/api'
   },
   server: {
 

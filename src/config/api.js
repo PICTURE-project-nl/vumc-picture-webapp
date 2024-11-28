@@ -1,11 +1,9 @@
-
 import axios from 'axios'
 import AxiosMockAdapter from 'axios-mock-adapter'
 
 export const useMockApi = false
-
-const api = axios.create({
-  baseURL: process.env.API_URL || 'http://localhost/api',
+export const api = axios.create({
+  baseURL: process.env.BASE_API_URL,
 })
 
 export let mockApi
