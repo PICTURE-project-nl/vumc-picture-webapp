@@ -59,7 +59,7 @@
           content: 'L';
           font-size: 0.8rem;
           position: absolute;
-          left: 36px;
+          right: 36px;
           z-index: 0;
           transform: scaleX(-1);
         }
@@ -68,7 +68,7 @@
           bottom: 10px;
           content: 'R';
           font-size: 0.8rem;
-          right: 36px;
+          left: 36px;
           position: absolute;
           z-index: 0;
           transform: scaleX(-1);

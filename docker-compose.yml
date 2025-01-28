@@ -12,4 +12,4 @@ services:
 networks:
   proxy:
     external: true
-    name: "${NETWORK_PREFIX}_proxy"
+    name: "8651f5efd1b17dbd02faad559c12fa3d36bdae18d720c4de3b6cf6627db9cec6_proxy"
